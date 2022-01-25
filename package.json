@@ -1,0 +1,31 @@
+{
+  "name": "socialmedia",
+  "version": "1.0.0",
+  "description": "Social media development by Moshe",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src;index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moshepedroribeiro/socialMedia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moshepedroribeiro/socialMedia/issues"
+  },
+  "homepage": "https://github.com/moshepedroribeiro/socialMedia#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "knex": "^1.0.1",
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
